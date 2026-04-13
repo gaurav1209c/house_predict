@@ -3,7 +3,7 @@ import joblib
 import pandas as pd
 
 # Load model
-model = joblib.load("model.pkl")
+model = joblib.load("home_model.pkl")
 
 st.title("🏠 House Price Prediction")
 
